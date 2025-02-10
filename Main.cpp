@@ -23,6 +23,7 @@ void batch()
         {
             if (uniqum_id[j] == id_insert)
             {
+                brak_phones.push_back(MyPhone().redact(id_insert, color, 74, 74, 24, 300));
                 is_uniqum = false;
                 break;
             }
